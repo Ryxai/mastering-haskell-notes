@@ -1,0 +1,910 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 2fae5b15b35564e3b8334b8c82f7b1cee38ab2ed262a093a684568d1cb20c661
+
+name:           mastering-haskell
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/mastering-haskell#readme>
+homepage:       https://github.com/githubuser/mastering-haskell#readme
+bug-reports:    https://github.com/githubuser/mastering-haskell/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/mastering-haskell
+
+executable V1
+  main-is: app/M1.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M1
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V10
+  main-is: app/M10.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M10
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V11
+  main-is: app/M11.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M11
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V13
+  main-is: app/M13.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M13
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V14
+  main-is: app/M14.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M14
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V15
+  main-is: app/M15.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M15
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V16
+  main-is: app/M16.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M16
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V17
+  main-is: app/M17.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M17
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V18
+  main-is: app/M18.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M18
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V19
+  main-is: app/M19.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M19
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V2
+  main-is: app/M2.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M2
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V20
+  main-is: app/M20.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M20
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V21
+  main-is: app/M21.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M21
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V22
+  main-is: app/M22.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M22
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V23
+  main-is: app/M23.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M23
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V24
+  main-is: app/M24.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M24
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V25
+  main-is: app/M25.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M25
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V26
+  main-is: app/M26.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M26
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V27
+  main-is: app/M27.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M27
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V28
+  main-is: M28.hs
+  other-modules:
+      Console
+      Paths_mastering_haskell
+  hs-source-dirs:
+      app/M28
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M28
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V29
+  main-is: M29.hs
+  other-modules:
+      Console
+      Paths_mastering_haskell
+  hs-source-dirs:
+      app/M29
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M29
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V3
+  main-is: app/M3.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M3
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V30
+  main-is: app/M30.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M30
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V31
+  main-is: app/M31.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M31
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V32
+  main-is: app/M32.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M32
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V33
+  main-is: app/M33.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M33
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V34
+  main-is: app/M34.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M34
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V35
+  main-is: app/M35.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M35
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V36
+  main-is: app/M36.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M36
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V37
+  main-is: app/M37.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M37
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V38
+  main-is: app/M38.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M38
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V4
+  main-is: app/M4.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M4
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V5
+  main-is: app/M5.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M5
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V6
+  main-is: app/M6.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M6
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V7
+  main-is: app/M7.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M7
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V8
+  main-is: app/M8.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M8
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+executable V9
+  main-is: app/M9.hs
+  other-modules:
+      Paths_mastering_haskell
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is M9
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
+
+test-suite mastering-haskell-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_mastering_haskell
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      GLUT
+    , array
+    , base >=4.7 && <5
+    , containers
+    , inline-c
+    , lens
+    , mastering-haskell
+    , mtl
+    , nondeterminism
+    , process
+    , random
+    , resourcet
+    , split
+    , transformers
+    , vector
+    , wreq
+  default-language: Haskell2010
